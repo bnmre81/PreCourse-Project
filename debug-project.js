@@ -36,7 +36,7 @@ function noZeroes(numberString) {
   while (numberString.endswith("0") {
     numberString.slice[1];
   }
-  numberString;
+  return numberString;
 }
 
 // console.log(generateIntegersArray(3, 7));
