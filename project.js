@@ -155,13 +155,13 @@ function abbreviate(firstName, lastName) {
  *
  */
 function isUpperCase(string) {
-let large = string.toUpperCase()
- if (large === string) {
-   return true
- } else {
-   return false
+  let large = string.toUpperCase();
+  if (large === string) {
+    return true;
+  } else {
+    return false;
+  }
 }
-
 /**
  * elementInArray(numbers, x):
  * - receives an array of numbers, and a number `x`.
@@ -174,9 +174,9 @@ let large = string.toUpperCase()
  */
 function elementInArray(numbers, x) {
   if (numbers.includes(x)) {
-    return true
+    return true;
   } else {
-    return false
+    return false;
   }
 }
 
@@ -191,9 +191,9 @@ function elementInArray(numbers, x) {
  *
  */
 function reverseString(string) {
-  let splitString = str.split(""); 
-  let reverseArray = splitString.reverse(); 
-  let joinArray = reverseArray.join(""); 
+  let splitString = string.split("");
+  let reverseArray = splitString.reverse();
+  let joinArray = reverseArray.join("");
   return joinArray;
 }
 
