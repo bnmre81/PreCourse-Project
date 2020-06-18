@@ -12,7 +12,7 @@ function generateIntegersArray(firstNumber, lastNumber) {
   const integersArray = [];
   whille (firstNumber < lastNumber)
     integersArray.push(firstNumber);
-    lastNumber++;
+    firstNumber++;
 
   return IntegersArray;
 }
